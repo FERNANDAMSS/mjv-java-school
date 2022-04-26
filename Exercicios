@@ -16,3 +16,7 @@ public class Movimentacao {
     System.out.println("Estado Civil é?" + EstadoCivil);
     System.out.println("evangelica?" + evangelica);
     System.out.println("filhos?" + filho);
+
+
+
+
