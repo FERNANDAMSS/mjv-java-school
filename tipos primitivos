@@ -1,6 +1,6 @@
 public class Estudos
 {
-public static void mais (String [] args)
+public static void main (String [] args)
 {
 // tipo de variavel nome da variavel valor inicial
 
@@ -18,3 +18,65 @@ Stryng nome = "Fernanda";
 System.out.println (nome)
 
 liguangem tipada: toda variavel tem um tipo associado a ela, só posso receber informação daquele tipo. Não posso colocar uma variável byte e colocar uma irformação boleana. 
+
+//OPERADORES LOGICOS E RELACIONAIS//
+
+byte idade = 18;
+char sexo = 'M';
+boolean servirExercito = (idade !=18); \\(= igual == comparação != diferente) \\
+System.out.println(" Tem quer servi o exercito? " + servirExercito);
+
+boolean servirExercito = (idade >=18) && (sexo = 'M'); && OPERADOR LOGICO e &&
+System.out.println(" Tem quer servi o exercito? " + servirExercito);
+
+boolean cateiraMoterista = false;
+boolean carteiraIdentidade = true;
+
+boolean temDocumeto = cateiraMoterista || carteiraidentidade;  \\ || esses traços é = a ou \\
+boolean temDocumeto = ! cateiraMoterista || carteiraidentidade; \\ operador de negação = ! ponto de exclação \\
+
+System.out.println ( "Tem documento? " temDocumento);
+
+\\OPERADOR ARIMETICOS\\
+
+\\ String \\
+
+é um objto, quando declaramos uma Stryng ex. Nome recebe João Gabril
+declaro objto do tipo String e o operadorr = estou instanciando   pool de objetos string
+
+String nome = "João Gabriel"
+String nome2 = "João Gabriel"
+
+Sistem.out.println (nome == nome2);
+Sistem.out.println (nome.equals(nome2)); //equals comparação
+
+String nome = new String ("João");
+System.out.println (nome.toUpperCase ()); // coloca todas as letras maiusculas 
+System.out.println (nome.toLowerCase ()); // coloca todas as letras minusculas
+System.out.println (nome.lengt()); // tamanho da string
+System.out.println (nome.trim ()); // remove espaços
+
+
+
+String é imutavel não atera o valor, apenas se trocar
+DIVIDE UMA STRING A PARTIR = SPLIT - ,
+TIRAR ESPAÇO = TRIM
+
+String nome = new String ("João");
+String nome2 = new String ("CURSO1,CURSO2,CURSO3,");
+
+String [] cursos = nome2.split (","); CRIOU UM ARRAYS
+System.out.println (cursos [0]);
+System.out.println (cursos [1]);
+
+String alterada = nome.replaceAll ("CURSO", TREINAMENTO");
+System.out.println (nome2);
+
+
+
+
+
+
+
+
+
