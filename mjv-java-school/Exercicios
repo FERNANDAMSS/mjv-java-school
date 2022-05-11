@@ -1,0 +1,22 @@
+package com.banking;
+
+import java.time.LocalDate;
+
+public class Movimentacao {
+   public static void main (String[] args){
+       byte idade = 33;
+       int filho = 1; 
+       String nome = "Fernanda";
+       String EstadoCivil = "casada";
+       boolean evangelica = true;
+           
+      
+    System.out.println("A idade é?" + idade);
+    System.out.println("O nome é?" + nome);
+    System.out.println("Estado Civil é?" + EstadoCivil);
+    System.out.println("evangelica?" + evangelica);
+    System.out.println("filhos?" + filho);
+
+
+
+
